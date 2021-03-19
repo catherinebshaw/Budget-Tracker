@@ -1,11 +1,11 @@
-const express = require("express");
-const logger = require("morgan");
-const mongoose = require("mongoose");
-const compression = require("compression");
+var express = require("express");
+var logger = require("morgan");
+var mongoose = require("mongoose");
+var compression = require("compression");
 
-const PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3000;
 
-const app = express();
+var app = express();
 
 app.use(logger("dev"));
 
@@ -22,6 +22,7 @@ mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost/budget", {
 
 // routes
 app.use(require("./routes/api.js"));
+app.use(require("./routes/htmlRoutes.js"));
 
 app.listen(PORT, () => {
   console.log(`App running on port: ${PORT}`);
