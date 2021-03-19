@@ -4,7 +4,7 @@ The budget tracker application provides a tool for tracing financial progress ag
 
 ## User Experience
 
-Every time the user gains or uses funds, they record it in the budget tracker. The budget tracker keeps a running total of the amount of funds in the account. Offline transactions are stored locally and added to the sum once an internet connection is restored. 
+Every time the user gains or uses funds, they record it in the budget tracker. The budget tracker keeps a running total of the amount of funds in the account. Offline transactions are stored locally and added to the sum once an internet connection is restored making the application more effective by giving the user maximum flexibility of use. 
 
 ## Technology Used
 
