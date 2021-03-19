@@ -12,7 +12,7 @@ The budget tracker is a node.js solution using express, logger, mongoDB and comp
 
 ## Mock Up
 
-![Budget Tracker Image]()
+![Budget Tracker Image](https://github.com/catherinebshaw/Budget-Tracker/blob/main/public/Budget-trackerSS.png)
 
 ## Live Site
 [Budget Tracker](https://budget-tracker-cs.herokuapp.com/)
