@@ -1,25 +1,60 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
-  font-size: 120%;
-  font-family: Arial;
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f0f7fc; 
+}
+input {
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: .4em .8em;
+  background-color: white;
 }
 
+input:focus {
+  background-color: white;
+  border: 2px solid #CBD5E0;
+  outline: 0;
+}
 button, input {
-  font-size: 100%;
-  font-family: Arial;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label {
+  font-weight: 900;
 }
 
+button {
+  background: #3306bb;
+  border: none;
+  margin: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  padding: 10px;
+  box-shadow: inset 0 -3px 0 0 #3306bb;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(3px);
+}
 table {
   width: 100%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #e5eaee;
+  background-color: white;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #e5eaee;
 }
 
 .error {
@@ -33,13 +68,13 @@ tr:nth-child(even) {
 }
 
 .total {
-  font-size: 150%;
-  text-decoration: underline;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 .form {
   margin-top: 25px;
-  width: 100%;
+
 }
 
 .transactions {
