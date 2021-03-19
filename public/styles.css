@@ -5,7 +5,7 @@
 body {
   font-size: 18px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #f0f7fc; 
+  background-color: #f8fcfc; 
 }
 input {
   border: 2px solid transparent;
@@ -28,7 +28,7 @@ label {
 }
 
 button {
-  background: #3306bb;
+  background: #4741b8;
   border: none;
   margin: 15px;
   margin-top: 18pt;
@@ -36,9 +36,20 @@ button {
   cursor: pointer;
   color: #FFFFFF;
   padding: 10px;
-  box-shadow: inset 0 -3px 0 0 #3306bb;
+  box-shadow: inset 0 -3px 0 0 #4741b8;
 }
+ #sub-btn{
+  background: #bb454d;
+  border: none;
+  margin: 15px;
+  margin-top: 18pt;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  padding: 10px;
+  box-shadow: inset 0 -3px 0 0 #bb454d;
 
+ }
 button:active {
   box-shadow: none;
   transform: translateY(3px);
