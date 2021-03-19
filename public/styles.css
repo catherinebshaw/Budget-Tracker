@@ -31,6 +31,7 @@ button {
   background: #3306bb;
   border: none;
   margin: 15px;
+  margin-top: 18pt;
   border-radius: 4px;
   cursor: pointer;
   color: #FFFFFF;
@@ -57,8 +58,13 @@ tr:nth-child(even) {
   background-color: #e5eaee;
 }
 
-.error {
+#error {
   color: red;
+  margin: 5px;
+  font: 16pt;
+  height: 18pt;
+  text-align: center;
+
 }
 
 .wrapper {
