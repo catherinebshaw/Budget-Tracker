@@ -1,6 +1,6 @@
 # Budget-Tracker
 
-The budget tracker application provides a tool for tracing financial progress against a budget regardless if the user is on-line or not. 
+The budget tracker application provides a tool for tracking financial progress against a budget regardless if the user is on-line or not. 
 
 ## User Experience
 
