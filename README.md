@@ -8,7 +8,7 @@ Every time the user gains or uses funds, they record it in the budget tracker. T
 
 ## Technology Used
 
-The budget tracker is a node.js solution using express, logger, mongoDB and compression packages. The main database is a mongoose database with indexedDB storage utilized while offline. The application is deployed on heroku using mango atlas. 
+The budget tracker is a node.js solution using express, logger, mongoDB and compression packages. The main database is a mongoose database with indexedDB storage utilized while offline. The application is deployed on heroku using mango atlas and can be launched by clicking on the live site link below. The application will open in the browser. 
 
 ## Mock Up
 
